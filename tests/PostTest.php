@@ -8,7 +8,7 @@ class PostTest extends TestCase{
     public function test_add_comment_to_post()
     {
         $post = new Post();
-        $comment = new Comment();
+        $comment = new Comment("Texto de prueba");
 
         $post->addComment($comment);
 
